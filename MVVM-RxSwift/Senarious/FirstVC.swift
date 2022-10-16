@@ -27,12 +27,12 @@ class FirstVC: UIViewController {
         configureUI()
         viewModel.fetchPosts()
         bindTableView()
-        let add = UIBarButtonItem(title: "Add", style: .done, target: self, action: #selector(onTapAdd))
-        let go = UIBarButtonItem(title: "Go", style: .plain, target: self, action: #selector(onTapGo))
-        self.navigationItem.rightBarButtonItems = [add, go]
+        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(onTapAdd))
+        let push = UIBarButtonItem(barButtonSystemItem: .fastForward, target: self, action: #selector(onTapPush))
+        self.navigationItem.rightBarButtonItems = [add, push]
     }
     
-    @objc func onTapGo() {
+    @objc func onTapPush() {
         let vc = SecondVC()
         self.navigationController?.pushViewController(vc, animated: true)
     }
@@ -50,6 +50,7 @@ class FirstVC: UIViewController {
             cell.textLabel?.text = item.title
             cell.detailTextLabel?.text = "\(item.id)"
             cell.height(80)
+            cell.selectionStyle = .none
         }.disposed(by: bag)
         
         // delete item

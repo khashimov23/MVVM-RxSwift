@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7603B1DDAF9AD0CC1967E92 /* Pods_MVVM_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F534CAF0F89026DF244285 /* Pods_MVVM_RxSwift.framework */; };
 		F26FD7EC28FAA589009C5EA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD7EB28FAA589009C5EA7 /* SceneDelegate.swift */; };
-		F26FD7EE28FAA589009C5EA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD7ED28FAA589009C5EA7 /* ViewController.swift */; };
+		F26FD7EE28FAA589009C5EA7 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD7ED28FAA589009C5EA7 /* FirstVC.swift */; };
 		F26FD7F328FAA58C009C5EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26FD7F228FAA58C009C5EA7 /* Assets.xcassets */; };
 		F26FD7F628FAA58C009C5EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26FD7F428FAA58C009C5EA7 /* LaunchScreen.storyboard */; };
 		F26FD80128FAA58D009C5EA7 /* MVVM_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD80028FAA58D009C5EA7 /* MVVM_RxSwiftTests.swift */; };
@@ -17,6 +18,11 @@
 		F26FD81C28FAA64F009C5EA7 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD81B28FAA64F009C5EA7 /* UIView+Ext.swift */; };
 		F26FD81E28FAA957009C5EA7 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD81D28FAA957009C5EA7 /* SecondVC.swift */; };
 		F26FD82028FAAAC9009C5EA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD81F28FAAAC9009C5EA7 /* AppDelegate.swift */; };
+		F26FD82428FAAEB9009C5EA7 /* FirstViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD82328FAAEB9009C5EA7 /* FirstViewModel.swift */; };
+		F26FD82628FAAF29009C5EA7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD82528FAAF29009C5EA7 /* User.swift */; };
+		F26FD82828FAB459009C5EA7 /* MoyaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD82728FAB459009C5EA7 /* MoyaService.swift */; };
+		F26FD82A28FADDD8009C5EA7 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD82928FADDD8009C5EA7 /* PostTableViewCell.swift */; };
+		F26FD83128FB17E4009C5EA7 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FD83028FB17E4009C5EA7 /* SecondViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37F534CAF0F89026DF244285 /* Pods_MVVM_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69122EB9285C2AB53F8B057F /* Pods-MVVM-RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-RxSwift.release.xcconfig"; path = "Target Support Files/Pods-MVVM-RxSwift/Pods-MVVM-RxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		EECC2E45B087273667B84393 /* Pods-MVVM-RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM-RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-MVVM-RxSwift/Pods-MVVM-RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F26FD7E628FAA589009C5EA7 /* MVVM-RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM-RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26FD7EB28FAA589009C5EA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F26FD7ED28FAA589009C5EA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F26FD7ED28FAA589009C5EA7 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		F26FD7F228FAA58C009C5EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26FD7F528FAA58C009C5EA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26FD7F728FAA58C009C5EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,11 @@
 		F26FD81B28FAA64F009C5EA7 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		F26FD81D28FAA957009C5EA7 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		F26FD81F28FAAAC9009C5EA7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F26FD82328FAAEB9009C5EA7 /* FirstViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewModel.swift; sourceTree = "<group>"; };
+		F26FD82528FAAF29009C5EA7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F26FD82728FAB459009C5EA7 /* MoyaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaService.swift; sourceTree = "<group>"; };
+		F26FD82928FADDD8009C5EA7 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		F26FD83028FB17E4009C5EA7 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7603B1DDAF9AD0CC1967E92 /* Pods_MVVM_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ECC84C9DA0175A28377EAC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37F534CAF0F89026DF244285 /* Pods_MVVM_RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5013A074668FA9AD9C66A5AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EECC2E45B087273667B84393 /* Pods-MVVM-RxSwift.debug.xcconfig */,
+				69122EB9285C2AB53F8B057F /* Pods-MVVM-RxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F26FD7DD28FAA589009C5EA7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				F26FD7FF28FAA58D009C5EA7 /* MVVM-RxSwiftTests */,
 				F26FD80928FAA58D009C5EA7 /* MVVM-RxSwiftUITests */,
 				F26FD7E728FAA589009C5EA7 /* Products */,
+				5013A074668FA9AD9C66A5AD /* Pods */,
+				2ECC84C9DA0175A28377EAC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +135,10 @@
 		F26FD7E828FAA589009C5EA7 /* MVVM-RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				F26FD82C28FAE651009C5EA7 /* Senarious */,
+				F26FD82228FAAE1B009C5EA7 /* Helpers */,
 				F26FD81A28FAA63F009C5EA7 /* Core */,
-				F26FD7EB28FAA589009C5EA7 /* SceneDelegate.swift */,
-				F26FD81F28FAAAC9009C5EA7 /* AppDelegate.swift */,
-				F26FD7ED28FAA589009C5EA7 /* ViewController.swift */,
-				F26FD81D28FAA957009C5EA7 /* SecondVC.swift */,
-				F26FD7F228FAA58C009C5EA7 /* Assets.xcassets */,
-				F26FD7F428FAA58C009C5EA7 /* LaunchScreen.storyboard */,
+				F26FD82D28FAE67B009C5EA7 /* Model */,
 				F26FD7F728FAA58C009C5EA7 /* Info.plist */,
 			);
 			path = "MVVM-RxSwift";
@@ -141,9 +172,73 @@
 		F26FD81A28FAA63F009C5EA7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F26FD82E28FAE68E009C5EA7 /* Services */,
+				F26FD82128FAAE04009C5EA7 /* Application */,
 				F26FD81928FAA632009C5EA7 /* Extension */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		F26FD82128FAAE04009C5EA7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD7EB28FAA589009C5EA7 /* SceneDelegate.swift */,
+				F26FD81F28FAAAC9009C5EA7 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F26FD82228FAAE1B009C5EA7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD7F228FAA58C009C5EA7 /* Assets.xcassets */,
+				F26FD7F428FAA58C009C5EA7 /* LaunchScreen.storyboard */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F26FD82B28FAE648009C5EA7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD82928FADDD8009C5EA7 /* PostTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F26FD82C28FAE651009C5EA7 /* Senarious */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD82F28FAE6B2009C5EA7 /* ViewModel */,
+				F26FD82B28FAE648009C5EA7 /* cell */,
+				F26FD81D28FAA957009C5EA7 /* SecondVC.swift */,
+				F26FD7ED28FAA589009C5EA7 /* FirstVC.swift */,
+			);
+			path = Senarious;
+			sourceTree = "<group>";
+		};
+		F26FD82D28FAE67B009C5EA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD82528FAAF29009C5EA7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F26FD82E28FAE68E009C5EA7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD82728FAB459009C5EA7 /* MoyaService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F26FD82F28FAE6B2009C5EA7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD82328FAAEB9009C5EA7 /* FirstViewModel.swift */,
+				F26FD83028FB17E4009C5EA7 /* SecondViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F26FD81028FAA58D009C5EA7 /* Build configuration list for PBXNativeTarget "MVVM-RxSwift" */;
 			buildPhases = (
+				94123DF00676F9921401C260 /* [CP] Check Pods Manifest.lock */,
 				F26FD7E228FAA589009C5EA7 /* Sources */,
 				F26FD7E328FAA589009C5EA7 /* Frameworks */,
 				F26FD7E428FAA589009C5EA7 /* Resources */,
+				F2CD679CCE009327B827E0F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,16 +368,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94123DF00676F9921401C260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM-RxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CD679CCE009327B827E0F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM-RxSwift/Pods-MVVM-RxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM-RxSwift/Pods-MVVM-RxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM-RxSwift/Pods-MVVM-RxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F26FD7E228FAA589009C5EA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26FD7EE28FAA589009C5EA7 /* ViewController.swift in Sources */,
+				F26FD7EE28FAA589009C5EA7 /* FirstVC.swift in Sources */,
+				F26FD82A28FADDD8009C5EA7 /* PostTableViewCell.swift in Sources */,
 				F26FD7EC28FAA589009C5EA7 /* SceneDelegate.swift in Sources */,
 				F26FD81E28FAA957009C5EA7 /* SecondVC.swift in Sources */,
+				F26FD82828FAB459009C5EA7 /* MoyaService.swift in Sources */,
 				F26FD82028FAAAC9009C5EA7 /* AppDelegate.swift in Sources */,
+				F26FD82428FAAEB9009C5EA7 /* FirstViewModel.swift in Sources */,
 				F26FD81C28FAA64F009C5EA7 /* UIView+Ext.swift in Sources */,
+				F26FD83128FB17E4009C5EA7 /* SecondViewModel.swift in Sources */,
+				F26FD82628FAAF29009C5EA7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +588,7 @@
 		};
 		F26FD81128FAA58D009C5EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EECC2E45B087273667B84393 /* Pods-MVVM-RxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +616,7 @@
 		};
 		F26FD81228FAA58D009C5EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69122EB9285C2AB53F8B057F /* Pods-MVVM-RxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

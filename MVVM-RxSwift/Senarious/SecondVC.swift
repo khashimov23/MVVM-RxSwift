@@ -28,7 +28,7 @@ class SecondVC: UIViewController, UITableViewDelegate {
         configureUI()
         viewModel.fetchPosts()
         bindTableView()
-        let add = UIBarButtonItem(title: "Add", style: .done, target: self, action: #selector(onTapAdd))
+        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(onTapAdd))
         self.navigationItem.rightBarButtonItem = add
     }
     
@@ -45,6 +45,7 @@ class SecondVC: UIViewController, UITableViewDelegate {
             cell.textLabel?.text = item.title
             cell.detailTextLabel?.text = "\(item.id)"
             cell.height(80)
+            cell.selectionStyle = .none
             return cell
         } titleForHeaderInSection: { dataSource, sectionIndex in
             return dataSource[sectionIndex].model
